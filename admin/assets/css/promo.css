@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container utama */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Tabel Promo */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Gambar Promo */
+table img {
+  max-width: 100px;
+  border-radius: 8px;
+}
+
+/* Tombol */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+/* button:hover {
+  opacity: 0.9;
+} */
+
+button.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+button.btn-warning {
+  background-color: #ffc107;
+  color: white;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Form Promo */
+#promoForm {
+  display: none;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#promoForm h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#promoForm label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#promoForm input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#promoForm button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#promoForm button.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+#promoForm button.btn-danger {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  table th,
+  table td {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  #promoForm input[type="file"] {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 8px;
+  }
+}

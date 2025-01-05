@@ -1,0 +1,39 @@
+/* Mengatur font */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  color: #333;
+}
+.nav-link {
+  color: #555;
+}
+.nav-link:hover {
+  color: #007bff;
+}
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Ticket Card */
+.ticket-card {
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+.ticket-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Status */
+.status-confirmed {
+  color: #28a745;
+  font-weight: bold;
+}
+.status-cancelled {
+  color: #dc3545;
+  font-weight: bold;
+}

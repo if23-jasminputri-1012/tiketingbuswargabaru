@@ -1,0 +1,84 @@
+/* INI CSS LOG IN */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+a .bg-nav {
+  background-color: #ffffff;
+}
+
+.mt--2 {
+  margin-top: -0.5rem !important;
+}
+
+.text-custom {
+  color: #374bff;
+}
+
+.hr-dotted {
+  border-top: 1px dotted;
+  opacity: 0.25;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #374bff !important;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #051b3c !important;
+}
+
+.home-section {
+  flex: 1;
+  padding: 100px 0;
+}
+
+.home-section h1 {
+  color: #fff !important;
+  font: size 400px;
+}
+
+.container h2 {
+  color: #333;
+}
+
+.container form .form-label {
+  font-weight: bold;
+}
+
+.container .btn-primary {
+  background-color: #374bff;
+  border: none;
+}
+
+.container .btn-primary:hover {
+  background-color: #051b3c;
+}
+
+/*layanan section*/
+#services {
+  padding: 0;
+}
+
+.carousel-item img {
+  width: 256px;
+  height: 256px;
+  object-fit: cover; /* Ensures the aspect ratio is maintained */
+  margin: 0 auto; /* Centers the image */
+  border: none;
+}
+
+.feature-icon-1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+}

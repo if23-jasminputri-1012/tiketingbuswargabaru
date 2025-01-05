@@ -1,0 +1,98 @@
+/* INI CSS REGISTER */
+body,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Gaya untuk body */
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Gaya untuk kontainer utama */
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Judul */
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #5a5a5a;
+}
+
+/* Gaya form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input dan label */
+label {
+  text-align: left;
+  font-size: 14px;
+  color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Tombol submit */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #007bff;
+}
+
+/* Teks bawah */
+p {
+  font-size: 14px;
+  color: #777;
+  margin-top: 15px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

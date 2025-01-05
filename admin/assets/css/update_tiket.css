@@ -1,0 +1,122 @@
+/* Reset dasar */
+body,
+h1,
+fieldset,
+form,
+label,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya dasar halaman */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(120deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #004085;
+}
+
+form {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Gaya fieldset dan legend */
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 1.2rem;
+  color: #004085;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Gaya label */
+label {
+  font-size: 0.9rem;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Gaya input */
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+input:focus {
+  outline: none;
+  border-color: #004085;
+  box-shadow: 0 0 5px rgba(0, 64, 133, 0.2);
+}
+
+/* Gaya tombol */
+button {
+  background: #004085;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+/* Hover dan focus untuk tombol */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 64, 133, 0.4);
+}
+
+/* Tambahan responsivitas */
+@media (max-width: 480px) {
+  form {
+    padding: 15px;
+  }
+
+  input,
+  button {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+}

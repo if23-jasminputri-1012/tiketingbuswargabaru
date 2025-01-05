@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+}
+
+.profile {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border: 3px solid #007bff;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1em;
+}
+
+.footer {
+    background-color: #343a40;
+}
